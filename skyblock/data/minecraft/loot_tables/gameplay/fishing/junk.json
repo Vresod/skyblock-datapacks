@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.0,
+                "max": 0.9
+              }
+            }
+          ],
+          "name": "minecraft:leather_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }
+          ],
+          "name": "minecraft:ink_sac"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:sugar_cane"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:bamboo"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+					"functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ],
+          "name": "minecraft:prismarine_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+					"functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ],
+          "name": "minecraft:prismarine_crystals"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+					"functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ],
+          "name": "minecraft:clay_ball"
+        }
+      ]
+    }
+  ]
+}

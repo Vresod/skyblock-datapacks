@@ -1,0 +1,1 @@
+schedule function skyblock:kill_player 1t

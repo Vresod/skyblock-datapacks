@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "DID",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:feather"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "I": {
+            "item": "minecraft:iron_chestplate"
+        }
+    },
+    "result": {
+        "item": "minecraft:elytra",
+        "count": 1
+    }
+}

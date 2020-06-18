@@ -1,0 +1,20 @@
+{
+		"type": "crafting_shaped",
+		"pattern": [
+				"111",
+				"101",
+				"111"
+		],
+		"key": {
+				"1": {
+						"tag": "skyblock:mushrooms"
+				},
+				"0": {
+						"item": "minecraft:dirt"
+				}
+		},
+		"result": {
+				"item": "minecraft:mycelium",
+				"count": 1
+		}
+}

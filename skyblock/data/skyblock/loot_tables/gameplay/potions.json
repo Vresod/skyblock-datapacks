@@ -1,0 +1,186 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:night_vision\"}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:invisibility\"}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:leaping\"}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:fire_resitance\"}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:swiftness\"}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:slowness\"}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:water_breathing\"}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:healing\"}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:harming\"}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:poison\"}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:regeneration\"}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:strength\"}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:weakness\"}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:luck\"}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:turtle_master\"}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:slow_falling\"}"
+						}
+					],
+					"name": "minecraft:potion"
+				}
+			]
+		}
+	]
+}

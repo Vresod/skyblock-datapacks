@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#P#",
+        "NBN",
+        " B "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "P": {
+            "item": "minecraft:prismarine_crystals"
+        },
+        "N": {
+            "item": "minecraft:nautilus_shell"
+        },
+        "B": {
+            "item": "minecraft:prismarine_shard"
+        }
+    },
+    "result": {
+        "item": "minecraft:trident",
+        "count": 1
+    }
+}

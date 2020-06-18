@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Nether",
+            "color": "dark_red",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": true
+        },
+        "description": {
+            "text": "Player entered Netherportal"
+        },
+        "icon": {
+            "item": "minecraft:netherrack"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "enter_portal": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:nether_portal"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "enter_portal"
+        ]
+    ],
+    "rewards": {
+        "function": "skyblock:spread_player"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " _ ",
+        "/I/",
+        "O_O"
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:smooth_stone_slab"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "I": {
+            "item": "minecraft:iron_block"
+        },
+        "O": {
+            "item": "minecraft:oak_planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:grindstone",
+        "count": 1
+    }
+}

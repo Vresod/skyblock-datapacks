@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#D#",
+        "BBB"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:redstone_torch"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "B": {
+            "item": "minecraft:bone_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:comparator",
+        "count": 1
+    }
+}
