@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#I#",
+        "BLB",
+        "PJP"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:magenta_dye"
+        },
+        "I": {
+            "item": "minecraft:iron_block"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "L": {
+            "item": "minecraft:bone_block"
+        },
+        "P": {
+            "item": "minecraft:prismarine_shard"
+        },
+        "J": {
+            "item": "minecraft:prismarine_crystals"
+        }
+    },
+    "result": {
+        "item": "minecraft:bubble_coral_fan",
+        "count": 2
+    }
+}
