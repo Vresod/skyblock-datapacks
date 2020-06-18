@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#I#",
+        "BEB",
+        "PNP"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blue_dye"
+        },
+        "I": {
+            "item": "minecraft:iron_block"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "E": {
+            "item": "minecraft:bone_block"
+        },
+        "P": {
+            "item": "minecraft:prismarine_shard"
+        },
+        "N": {
+            "item": "minecraft:prismarine_crystals"
+        }
+    },
+    "result": {
+        "item": "minecraft:tube_coral_fan",
+        "count": 2
+    }
+}
