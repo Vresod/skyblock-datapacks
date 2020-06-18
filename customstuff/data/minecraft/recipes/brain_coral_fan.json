@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#I#",
+        "BZB",
+        "PCP"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:pink_dye"
+        },
+        "I": {
+            "item": "minecraft:iron_block"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "Z": {
+            "item": "minecraft:bone_block"
+        },
+        "P": {
+            "item": "minecraft:prismarine_shard"
+        },
+        "C": {
+            "item": "minecraft:prismarine_crystals"
+        }
+    },
+    "result": {
+        "item": "minecraft:brain_coral_fan",
+        "count": 2
+    }
+}
