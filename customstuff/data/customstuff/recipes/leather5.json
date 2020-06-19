@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:saddle"
+    },
+    "result": "minecraft:leather",
+    "count": 1
+}
