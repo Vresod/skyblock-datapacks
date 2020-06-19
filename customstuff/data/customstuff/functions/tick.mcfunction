@@ -10,4 +10,5 @@ execute as @a[scores={kill_self=1..}] run function customstuff:kill_self
 
 # unique spawning
 
-execute as @e[type=!player,tag=!CHECKED] at @s run customstuff:spawn_check
+execute as @e[type=!player,tag=!CHECKED] at @s run function customstuff:spawn_check
+
