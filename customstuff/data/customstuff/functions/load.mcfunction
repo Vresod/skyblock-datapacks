@@ -1,1 +1,1 @@
-schedule function customstuff:stiff_cocks 2s
+schedule function customstuff:name_changing 2s
