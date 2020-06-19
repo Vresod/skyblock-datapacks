@@ -1,0 +1,35 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Were the bewitching road ends",
+            "bold": false,
+            "underlined": false,
+            "strikethrough": false
+        },
+        "description": {
+            "text": "Kill a witch and obtain multiple valuable resources "
+        },
+        "icon": {
+            "item": "minecraft:wither_rose"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "killwitch": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:witch"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "customstuff:root"
+}

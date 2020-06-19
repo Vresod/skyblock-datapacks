@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "King of the Depths",
+            "color": "dark_aqua"
+        },
+        "description": {
+            "text": "Obtain a trident, a powerful weapon from beneath the sea",
+            "color": "dark_blue"
+        },
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "triobtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:trident"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 15
+    },
+    "parent": "customstuff:fishingrod"
+}
