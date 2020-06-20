@@ -17,6 +17,23 @@ execute if entity @s[type=skeleton] if block ~ ~-1 ~ packed_ice run tp @s ~ ~-60
 execute if entity @s[type=skeleton] if block ~ ~-1 ~ blue_ice run summon stray ~ ~ ~
 execute if entity @s[type=skeleton] if block ~ ~-1 ~ blue_ice run tp @s ~ ~-600 ~
 
+# Voidwalker Spawning (DOES NOT WORK YET)
+
+execute if entity @s[type=witch,y=5] run summon stray ~ ~ ~
+execute if entity @s[type=witch,y=5] run tp @s ~ ~-600 ~
+
+execute if entity @s[type=witch,y=4] run summon stray ~ ~ ~
+execute if entity @s[type=witch,y=4] run tp @s ~ ~-600 ~
+
+execute if entity @s[type=witch,y=3] run summon stray ~ ~ ~
+execute if entity @s[type=witch,y=3] run tp @s ~ ~-600 ~
+
+execute if entity @s[type=witch,y=2] run summon stray ~ ~ ~
+execute if entity @s[type=witch,y=2] run tp @s ~ ~-600 ~
+
+execute if entity @s[type=witch,y=1] run summon stray ~ ~ ~
+execute if entity @s[type=witch,y=1] run tp @s ~ ~-600 ~
+
 # Add tag checked
 
 tag @s add CHECKED
