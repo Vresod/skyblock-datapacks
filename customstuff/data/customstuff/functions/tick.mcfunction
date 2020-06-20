@@ -20,4 +20,4 @@ execute as @e[type=minecraft:snow_golem] at @s run fill ~ ~-1 ~ ~ ~-1 ~ minecraf
 kill @e[type=arrow,nbt={inGround:1b}]
 
 # Voidwalker stuff
-function:voidwalker
+function customstuff:voidwalker
