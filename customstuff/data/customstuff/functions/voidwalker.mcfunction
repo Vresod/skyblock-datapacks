@@ -10,3 +10,8 @@ execute at @e[tag=voidwalker,scores={Launchup=100}] run summon minecraft:area_ef
 
 # Helmet Strength
 execute as @a[nbt={Inventory:[{tag:{voidhelm:1b},Slot:103b}]}] run effect give @a[nbt={Inventory:[{tag:{voidhelm:1b},Slot:103b}]}] minecraft:strength 1 0 true
+
+# Void Essence Launch
+
+execute at @e[type=item,tag:{void:1b}] run summon minecraft:area_effect_cloud ~ ~.5 ~ {Particle:"mycelium",ReapplicationDelay:0,Radius:3f,RadiusPerTick:-0.5f,Duration:20,Effects:[{Id:25b,Amplifier:20b,Duration:10}]}
+execute at @e[type=item,tag:{void:1b}] run kill @e[type=item,tag:{void:1b}]
