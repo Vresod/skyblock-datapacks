@@ -13,5 +13,5 @@ execute as @a[nbt={Inventory:[{tag:{voidhelm:1b},Slot:103b}]}] run effect give @
 
 # Void Essence Launch
 
-execute at @e[type=item,tag:{void:1b}] run summon minecraft:area_effect_cloud ~ ~.5 ~ {Particle:"mycelium",ReapplicationDelay:0,Radius:3f,RadiusPerTick:-0.5f,Duration:20,Effects:[{Id:25b,Amplifier:20b,Duration:10}]}
-execute at @e[type=item,tag:{void:1b}] run kill @e[type=item,tag:{void:1b}]
+execute at @e[type=item,nbt={Tags:["void:1b"],Item:{id:"minecraft:player_head",Count:1b}}] run summon minecraft:area_effect_cloud ~ ~.5 ~ {Particle:"mycelium",ReapplicationDelay:0,Radius:3f,RadiusPerTick:-0.5f,Duration:20,Effects:[{Id:25b,Amplifier:20b,Duration:10}]}
+execute at @e[type=item,nbt={Tags:["void:1b"],Item:{id:"minecraft:player_head",Count:1b}}] run kill @e[type=item,nbt={Tags:["void:1b"],Item:{id:"minecraft:player_head",Count:1b}}]
