@@ -21,3 +21,6 @@ kill @e[type=arrow,nbt={inGround:1b}]
 
 # Voidwalker stuff
 function customstuff:voidwalker
+
+# Skycrawler stuff
+function customstuff:skycrawler
