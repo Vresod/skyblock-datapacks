@@ -1,0 +1,12 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:dead_horn_coral_block"
+		}
+	],
+	"result": {
+		"item": "minecraft:rotten_flesh",
+		"count": 9
+	}
+}
