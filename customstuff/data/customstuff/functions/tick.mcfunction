@@ -18,7 +18,7 @@ execute as @e[type=minecraft:snow_golem] at @s run fill ~ ~-1 ~ ~ ~-1 ~ minecraf
 
 # Kill all grounded arrows
 kill @e[type=arrow,nbt={inGround:1b,pickup:2b}]
-kill @e[type-arrow,nbt={inGround:1b,pickup:0b}]
+kill @e[type=arrow,nbt={inGround:1b,pickup:0b}]
 
 # Voidwalker stuff
 function customstuff:voidwalker
