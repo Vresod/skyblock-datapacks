@@ -25,3 +25,6 @@ function customstuff:voidwalker
 
 # Skycrawler stuff
 function customstuff:skycrawler
+
+# reset playtime for bots
+scoreboard players reset @a[scores={isbot=1}] hc_playTick
