@@ -1,0 +1,12 @@
+Vanilla Tweaks Crafting Tweaks
+Version: 1.16
+Packs:
+	more trapdoors
+	more bark
+	more bricks
+	more stairs
+	double slabs
+	dropper to dispenser
+	back to blocks
+	unpackable nether wart
+	unpackable wool
