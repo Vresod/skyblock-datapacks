@@ -28,3 +28,6 @@ function customstuff:skycrawler
 
 # reset playtime for bots
 scoreboard players reset @a[scores={isbot=1}] hc_playTick
+
+# dont let tridents die to void
+execute as @e[type=trident] at @s if entity @s[y=1,dy=-64] run tp ~ 255 ~
